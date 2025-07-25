@@ -1,0 +1,16 @@
+1. Initialization means assigning values to the elements of an array when you 
+declare it.
+
+2. All initial values must be constant (like numbers) and cannot be variables or 
+the result of function calls.
+
+3. The syntax for initializing a one-dimensional array is:
+
+Data_type array_name[size] = {ele1, ele2, ...};
+
+int names[5] = {10, 20, 30, 40, 50}       
+
+- Data_type can be int, float, char, etc.
+- array_name is the name of the array.
+- size is the maximum number of elements, and the values 
+are enclosed in curly braces.

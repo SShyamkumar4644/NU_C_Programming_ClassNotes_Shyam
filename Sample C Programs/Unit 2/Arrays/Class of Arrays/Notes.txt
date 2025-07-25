@@ -1,0 +1,27 @@
+1. A one-dimensional array is a list of elements of the same data type 
+(like int, float, char, or double) that can be accessed using a single name 
+and a single index (subscript).
+
+2. The syntax for declaring an array is:
+
+Data_type Array_name[Size] = {ele1, ele2, ...};
+
+int numbers[5] = {10, 20, 30, 40, 50}
+
+- Data_type can be int, float, char, or double.
+- Array_name is the name you give to the array.
+- Size is how many elements the array can hold.
+
+Examples:
+
+1. float height[10]; declares an array for storing 10 floating-point numbers.
+2. int num[50]; declares an array for storing 50 integers.
+3. char name[20]; declares an array for storing 20 characters (like a string).
+4. double a[80]; declares an array for 80 double-precision numbers.
+Subscript Rules:
+
+1. Subscripts must be non-negative integers.
+
+2. You cannot use a subscript of a subscript (e.g., array[array[0]] is not allowed).
+
+3. For strings, remember to reserve an extra space for the null terminator \0, which indicates the end of the string.

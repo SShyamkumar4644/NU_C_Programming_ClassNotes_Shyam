@@ -1,0 +1,8 @@
+Strings
+- Strings are basically a sequence of characters.
+- C does not have a specific data type for strings, 
+  so strings are stored in arrays of characters.
+- Every string must end with a special character called 
+  the null character (`'\0'`) to indicate where the string ends.
+- Strings are written inside double quotes (`"Shishir"`), while 
+  individual characters are written inside single quotes (`'a'`).

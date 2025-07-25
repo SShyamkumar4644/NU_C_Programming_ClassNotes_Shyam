@@ -1,0 +1,15 @@
+1. Algorithm and Flowchart
+2. Explain Relational and Logical / Bitwise Operators
+3. Precedence and Associativity
+4. For loop, While loop, Else-if ladder, if statements
+5. Break and Continue Statements
+6. Find the largest of 3 numbers or prime numbers range
+7. Type conversions.
+8. Switch statements. Calculator Program
+9. Variables.
+10. Program Development Cycle and Characteristics of C
+
+MCQ:
+1. Input/ Output
+2. Operators
+3. Loops

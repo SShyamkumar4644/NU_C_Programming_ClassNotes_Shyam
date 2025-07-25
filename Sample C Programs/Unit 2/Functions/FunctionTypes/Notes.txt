@@ -1,0 +1,7 @@
+No Arguments, No Return: Just performs an action.
+
+No Arguments, Returns a Value: Performs an action and gives back a result.
+
+With Arguments, No Return: Takes inputs and performs an action.
+
+With Arguments, Returns a Value: Takes inputs, processes them, and returns a result.

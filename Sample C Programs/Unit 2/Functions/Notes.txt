@@ -1,0 +1,22 @@
+1. Predefined Functions  
+   - These are functions that are already available in C libraries, and 
+   you can use them without writing their code. 
+   - They are part of the standard library, like `printf()` for printing output 
+   and `scanf()` for reading input. 
+   - Predefined functions are designed to make common tasks 
+   easier, so you don’t need to implement them yourself.
+   Example: `printf()`, `scanf()`, `sqrt()`
+
+2. User-Defined Functions  
+   - These are functions that you create to perform specific 
+   tasks in your program. 
+   - You define them according to your 
+   needs, including the name, parameters, and what the 
+   function will do. 
+   - By creating user-defined functions, 
+   you can organize your code better, reuse parts of your 
+   code, and make it more readable.
+
+   Example: You can create a function to add two numbers, 
+   calculate the area of a circle, etc.
+

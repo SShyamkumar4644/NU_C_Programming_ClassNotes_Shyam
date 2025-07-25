@@ -1,0 +1,22 @@
+1. Definition: An array is a collection of similar data types 
+stored under a single name.
+
+2. Purpose: When you need multiple variables of the same type, 
+using an array is more efficient than creating separate variables.
+
+3. Memory Storage: Arrays store data in contiguous memory locations, 
+which allows for efficient access and manipulation.
+
+4. Indexing: Each element in an array is accessed using an 
+index, which is a unique number. 
+- The first element is at index 0, and the last element is at index (size - 1).
+
+5. Memory Management: Arrays use static memory allocation, 
+meaning the memory is allocated at compile time based on the declared size.
+
+6. Size Requirement: The size of an array must be a 
+positive integer greater than zero.
+
+7. Data Types: Arrays can hold elements of any 
+fundamental data type in C (e.g., int, float, char).
+

@@ -1,0 +1,62 @@
+User-defined Data Type: A structure is a user-defined 
+data type that allows you to group different data 
+types together under a single name. This is useful 
+for representing complex data.
+
+Member Variables: Structures can contain multiple 
+member variables (fields) of different data types, 
+such as integers, floats, arrays, and other structures.
+
+Declaration: You define a structure using the 
+struct keyword followed by a structure tag 
+(optional) and the member variables enclosed 
+in curly braces. For example:
+
+
+struct Student {
+    char name[50];
+    int age;
+    char address[100];
+};
+
+Accessing Members: You access the members 
+of a structure using the dot operator (.) 
+with a structure variable. For example:
+
+
+struct Student student1;
+student1.age = 20;  // Accessing the 'age' member
+
+Memory Allocation: When you create a structure 
+variable, memory is allocated for all its members. 
+The total size of the structure is the sum 
+of the sizes of its individual members.
+
+
+In C, arrays behave differently than regular variables. 
+When you declare an array like char name[50];, 
+it represents a fixed block of memory to store 
+multiple characters. Unlike regular variables, 
+you cannot assign to an array directly after declaring it. 
+
+Here’s why:
+
+Arrays Are Fixed Memory Locations: When you create char name[50];, 
+it allocates memory for 50 characters, and the identifier 
+name becomes a constant pointer to the start of that memory block. 
+In other words, name points to the same memory address and 
+cannot be reassigned to another string.
+
+Direct Assignment Is for Single Variables, Not Arrays: 
+In C, assignment (=) works for single variables or pointers, 
+but not for arrays as a whole. Arrays are more like containers, 
+and the language doesn’t support replacing the entire 
+container contents with a new one using =.
+
+Character-by-Character Copying with strcpy: C provides 
+functions like strcpy to handle copying strings because 
+it copies each character from one memory location to 
+another, filling the array’s contents. 
+strcpy(destination, source); handles this by taking 
+each character from source and copying it, one by one, 
+into destination.
